@@ -198,6 +198,10 @@ header {
 
 .mailto::before {
     content: "\2709";
-    display: block;
-    position: absolute;
+    margin-right: 5px;
+}
+
+.kontakty::before {
+    content: "\1F4F1";
+    margin-right: 5px;
 }
